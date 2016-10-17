@@ -1,0 +1,76 @@
+*{ margin:0;  padding:0;}
+body{font:18px/24px "微软雅黑","宋体";}
+.z{float:left;}
+.y{float: right;}
+.cl{clear: both;}
+img{border: 0}
+
+
+.log{
+    width: 70px;
+    margin: 0px auto;
+}
+.loginbox1{
+    display: none;
+    width: 400px;
+    height:312px ;
+    margin: 1px auto;
+    border: 1px solid;
+}
+.header1{
+    width: 400px;
+    height: 45px;
+    border-bottom: 1px solid;
+    color: #5ecfba;
+}
+.header2{
+    width: 368px;
+    height: 25px;
+    margin: 10px auto 0px;
+}
+.title1{
+    width: 350px;
+    float: left;
+    font-weight: normal;
+}
+.close{
+    width: 18px;
+    float: left;
+    background-color:transparent;
+    border:0;
+}
+
+.log_body{
+    width: 368px;
+    height: 225px;
+    margin: 15px auto;
+}
+.log_body ul{
+    list-style-type: none;
+    padding-top: 12px;
+}
+.form_li{
+    width: 338px;
+    height: 42px;
+    margin:0px auto 20px ;
+}
+
+.log_input{
+    width: 338px;
+    height: 42px;
+    border: 1px solid #5ecfba;
+}
+
+.logbt_div{
+    width: 338px;
+    height: 38px;
+    margin: 25px auto 0px;
+}
+.lg_btclass{
+    width: 338px;
+    height: 38px;
+    padding: 8px 12px;
+    background-color: #5ecfba;
+    border: 0;
+	cursor: pointer;
+}

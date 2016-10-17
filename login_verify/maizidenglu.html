@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!--
+1，利用html form中input进行输入，利用button进行提交
+2，利用js addEventListener的click事件和弹出窗口的display属性打开和关闭窗口
+3，利用submit(onsubmit)事件进行用户名、密码提交时的验证
+4，用户名和密码主要利用正则进行验证
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>麦子登录</title>
+    <link rel="stylesheet" type="text/css" href="denglu.css">
+</head>
+
+<body>
+<div class="log" id="log">
+    <a ><input type="button" value="注册"></a> <a href="javascript:" id="logbutton"><input type="button" value="登录"></a>
+</div>
+
+
+<!--登录窗口-->
+<div class="loginbox1" id="loginbox1">
+    <div class="header1">
+        <div class="header2">
+            <h4 class="title1" id="title1">登录</h4>
+            <button type="button" class="close"  id="close"><span >x</span></button>
+        </div>
+    </div>
+    <div class="log_body">
+           <form id="log_form" action="https://www.douban.com/" method="post" target="" onSubmit="jiancha();" >
+                <ul>
+                    <li class="form_li"><input class="log_input" id="username"  name="username" placeholder="请输入邮箱账号/手机号" type="text" /></li>
+                    <li class="form_li"><input class="log_input" id="password" name="password" placeholder="请输入密码" type="password" /></li>
+                </ul>
+               <div class="logbt_div">
+               <button type="button" class="lg_btclass" id="lg_button" >登录</button>
+               </div>
+            </form>
+
+    </div>
+</div>
+<script src="denglu.js"></script>
+</body>
+
+</html>
